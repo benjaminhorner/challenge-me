@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256EFA9E1EC3135400D7A0E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256EFA9D1EC3135400D7A0E8 /* AppDelegate.swift */; };
+		256EFAA01EC3135400D7A0E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256EFA9F1EC3135400D7A0E8 /* ViewController.swift */; };
+		256EFAA31EC3135400D7A0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256EFAA11EC3135400D7A0E8 /* Main.storyboard */; };
+		256EFAA61EC3135400D7A0E8 /* ChallengeMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 256EFAA41EC3135400D7A0E8 /* ChallengeMe.xcdatamodeld */; };
+		256EFAA81EC3135400D7A0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256EFAA71EC3135400D7A0E8 /* Assets.xcassets */; };
+		256EFAAB1EC3135400D7A0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256EFAA91EC3135400D7A0E8 /* LaunchScreen.storyboard */; };
+		256EFAB31EC3144300D7A0E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256EFAB21EC3144300D7A0E8 /* GoogleService-Info.plist */; };
+		EA3CC92161C119DAA561984C /* Pods_ChallengeMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF971FFFD3AF0B3F70053FE1 /* Pods_ChallengeMe.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		256EFA9A1EC3135400D7A0E8 /* ChallengeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256EFA9D1EC3135400D7A0E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		256EFA9F1EC3135400D7A0E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		256EFAA21EC3135400D7A0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		256EFAA51EC3135400D7A0E8 /* ChallengeMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChallengeMe.xcdatamodel; sourceTree = "<group>"; };
+		256EFAA71EC3135400D7A0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		256EFAAA1EC3135400D7A0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		256EFAAC1EC3135400D7A0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256EFAB21EC3144300D7A0E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FB5661EA3CFC697AF476C52 /* Pods-ChallengeMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeMe/Pods-ChallengeMe.release.xcconfig"; sourceTree = "<group>"; };
+		CF971FFFD3AF0B3F70053FE1 /* Pods_ChallengeMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChallengeMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20821842B8CA40FE63608A4 /* Pods-ChallengeMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChallengeMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChallengeMe/Pods-ChallengeMe.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256EFA971EC3135400D7A0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3CC92161C119DAA561984C /* Pods_ChallengeMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0239DB42803E737F5330D648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D20821842B8CA40FE63608A4 /* Pods-ChallengeMe.debug.xcconfig */,
+				2FB5661EA3CFC697AF476C52 /* Pods-ChallengeMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		102D3833A212BC6377FD6FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF971FFFD3AF0B3F70053FE1 /* Pods_ChallengeMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		256EFA911EC3135300D7A0E8 = {
+			isa = PBXGroup;
+			children = (
+				256EFA9C1EC3135400D7A0E8 /* ChallengeMe */,
+				256EFA9B1EC3135400D7A0E8 /* Products */,
+				0239DB42803E737F5330D648 /* Pods */,
+				102D3833A212BC6377FD6FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		256EFA9B1EC3135400D7A0E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				256EFA9A1EC3135400D7A0E8 /* ChallengeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256EFA9C1EC3135400D7A0E8 /* ChallengeMe */ = {
+			isa = PBXGroup;
+			children = (
+				256EFA9D1EC3135400D7A0E8 /* AppDelegate.swift */,
+				256EFA9F1EC3135400D7A0E8 /* ViewController.swift */,
+				256EFAA11EC3135400D7A0E8 /* Main.storyboard */,
+				256EFAA71EC3135400D7A0E8 /* Assets.xcassets */,
+				256EFAA91EC3135400D7A0E8 /* LaunchScreen.storyboard */,
+				256EFAAC1EC3135400D7A0E8 /* Info.plist */,
+				256EFAA41EC3135400D7A0E8 /* ChallengeMe.xcdatamodeld */,
+				256EFAB21EC3144300D7A0E8 /* GoogleService-Info.plist */,
+			);
+			path = ChallengeMe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256EFA991EC3135400D7A0E8 /* ChallengeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256EFAAF1EC3135400D7A0E8 /* Build configuration list for PBXNativeTarget "ChallengeMe" */;
+			buildPhases = (
+				7F71B5B90060C87D621705DA /* [CP] Check Pods Manifest.lock */,
+				256EFA961EC3135400D7A0E8 /* Sources */,
+				256EFA971EC3135400D7A0E8 /* Frameworks */,
+				256EFA981EC3135400D7A0E8 /* Resources */,
+				FEB37CB2CDBD0C17582C3C20 /* [CP] Embed Pods Frameworks */,
+				64D9D37BCE11F99B60D5929E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChallengeMe;
+			productName = ChallengeMe;
+			productReference = 256EFA9A1EC3135400D7A0E8 /* ChallengeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256EFA921EC3135300D7A0E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Benjamin Horner";
+				TargetAttributes = {
+					256EFA991EC3135400D7A0E8 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3T6H8V36W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 256EFA951EC3135300D7A0E8 /* Build configuration list for PBXProject "ChallengeMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256EFA911EC3135300D7A0E8;
+			productRefGroup = 256EFA9B1EC3135400D7A0E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				256EFA991EC3135400D7A0E8 /* ChallengeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256EFA981EC3135400D7A0E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256EFAAB1EC3135400D7A0E8 /* LaunchScreen.storyboard in Resources */,
+				256EFAB31EC3144300D7A0E8 /* GoogleService-Info.plist in Resources */,
+				256EFAA81EC3135400D7A0E8 /* Assets.xcassets in Resources */,
+				256EFAA31EC3135400D7A0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64D9D37BCE11F99B60D5929E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChallengeMe/Pods-ChallengeMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F71B5B90060C87D621705DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB37CB2CDBD0C17582C3C20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChallengeMe/Pods-ChallengeMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256EFA961EC3135400D7A0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256EFAA01EC3135400D7A0E8 /* ViewController.swift in Sources */,
+				256EFA9E1EC3135400D7A0E8 /* AppDelegate.swift in Sources */,
+				256EFAA61EC3135400D7A0E8 /* ChallengeMe.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		256EFAA11EC3135400D7A0E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256EFAA21EC3135400D7A0E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		256EFAA91EC3135400D7A0E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256EFAAA1EC3135400D7A0E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256EFAAD1EC3135400D7A0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		256EFAAE1EC3135400D7A0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256EFAB01EC3135400D7A0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20821842B8CA40FE63608A4 /* Pods-ChallengeMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T6H8V36W5;
+				INFOPLIST_FILE = ChallengeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.benjaminhorner.ChallengeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		256EFAB11EC3135400D7A0E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB5661EA3CFC697AF476C52 /* Pods-ChallengeMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3T6H8V36W5;
+				INFOPLIST_FILE = ChallengeMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.benjaminhorner.ChallengeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256EFA951EC3135300D7A0E8 /* Build configuration list for PBXProject "ChallengeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256EFAAD1EC3135400D7A0E8 /* Debug */,
+				256EFAAE1EC3135400D7A0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256EFAAF1EC3135400D7A0E8 /* Build configuration list for PBXNativeTarget "ChallengeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256EFAB01EC3135400D7A0E8 /* Debug */,
+				256EFAB11EC3135400D7A0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		256EFAA41EC3135400D7A0E8 /* ChallengeMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				256EFAA51EC3135400D7A0E8 /* ChallengeMe.xcdatamodel */,
+			);
+			currentVersion = 256EFAA51EC3135400D7A0E8 /* ChallengeMe.xcdatamodel */;
+			path = ChallengeMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 256EFA921EC3135300D7A0E8 /* Project object */;
+}
